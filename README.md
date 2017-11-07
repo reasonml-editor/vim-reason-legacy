@@ -1,8 +1,6 @@
 # Vim support for Reason/OCaml
 
-![vim-reason](https://user-images.githubusercontent.com/1909539/28570945-3bef8f46-70f5-11e7-9809-8c3282d350c5.png)
-
-This is a version of [Reason](http://reasonml.github.io/) Vim editor integration without needing OPAM or dynamically loading the plugin. The only things you need are the 3 binaries described [here](https://reasonml.github.io/guide/editor-tools/global-installation).
+**Note**: this is the _fallback_ [Reason](http://reasonml.github.io/) Vim editor integration for Vim 7 or Vim 8 without Python 3. If you're on NeoVim or Vim 8 with Python 3, please use [vim-reason-plus](https://github.com/reasonml-editor/vim-reason-plus) instead!
 
 ## Installing
 
@@ -67,4 +65,4 @@ Lots of content in the repo is copy pasted from https://github.com/ocaml/merlin/
 
 ## LICENSE
 
-Some files from VimReason are based on the Rust vim plugin and so we are including that license.
+Some files from vim-reason are based on the Rust vim plugin and so we are including that license.
